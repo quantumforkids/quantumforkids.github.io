@@ -1,0 +1,36 @@
+css.practice
+background {
+	color: black;
+}
+
+body {
+	text-align: left;
+}
+
+h1 {
+	color: aqua;
+	font-family: monospace;
+	text-shadow: white;
+	text-align: center;
+}
+
+h4 {
+color: white;
+font-family: serif;
+} 
+
+h3 {
+	color: pink;
+	font-family: serif;
+}
+
+p {
+	font-family: serif;
+	color: white;
+}
+
+img {
+	float: left;
+	height: 100px;
+	width: 150px;
+}
