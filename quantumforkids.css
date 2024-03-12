@@ -5,6 +5,7 @@ background {
 
 body {
 	text-align: left;
+	background-color: black;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 	font-family: monospace;
 	text-shadow: white;
 	text-align: center;
+	size: 10px;
 }
 
 h4 {
@@ -19,7 +21,7 @@ color: white;
 font-family: serif;
 } 
 
-h3 {
+a {
 	color: pink;
 	font-family: serif;
 }
