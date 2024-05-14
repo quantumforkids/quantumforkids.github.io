@@ -4,73 +4,79 @@
 	<link rel="stylesheet" href="quantumforkids.css">
 <style>
 	body {background-color: black;}
-	div {
+  .myDiv1 {
   width: 100px;
   height: 100px;
   background: red;
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove1 5s infinite;
 }
 
-@keyframes mymove {
+@keyframes mymove1 {
     0% {
       border-radius: 50% 50% 50% 50%;
-      background: blue;
-    }
-    100% {
-      border-radius: 50% 50% 50% 50%;
-      background: blue;
-  	}
-  	div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-    0% {
-      border-radius: 50% 50% 50% 50%;
-      background: red;
-    }
-    100% {
-      border-radius: 50% 50% 50% 50%;
-      background: red;
-  	}
-  	div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-    0% {
-      border-radius: 50% 50% 50% 50%;
-      background: blue;
+      background: aqua;
     }
     20% {
       border-radius: 50% 50% 50% 50%;
-      background: red;
+      background: hotpink;
     }
     40% {
       border-radius: 50% 50% 50% 50%;
-      background: blue;
+      background: aqua;
     }
     60% {
       border-radius: 50% 50% 50% 50%;
-      background: red;
+      background: hotpink;
     }
     80% {
       border-radius: 50% 50% 50% 50%;
-      background: blue;
+      background: aqua;
 	}	
     100% {
       border-radius: 50% 50% 50% 50%;
-      background: blue;
+      background: hotpink;
 	}
+}
+
+.myDiv2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+    0% {
+      border-radius: 50% 50% 50% 50%;
+      background: hotpink;
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%;
+      background: hotpink;
+}
+}
+
+.myDiv3 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove3 5s infinite;
+}
+
+@keyframes mymove3 {
+    0% {
+      border-radius: 50% 50% 50% 50%;
+      background: aqua;
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%;
+      background: aqua;
+}
+} 
+
 </style>
 	<title></title>
 </head>
@@ -84,15 +90,15 @@
 <p>Superposition is when something exist in two states. In quantum computing it is used to describe the position of a qubit. In traditional coding, bits are used to store data. The bits are either a 0 or a 1. In quantum computing, quibits are not confined to one value, rather they can be a 1 and a 0 at the same time.</p>
 
 <h3>Visual Demonstration</h3>
-<h4>Below is a visual demonstration which depicts the concept of superposition.</h4>
 <p>This is an ordianry bit that is representing a 0.</p>
-
-
+<div class="myDiv3">	
+</div>
 <p>This is an ordinary bit that is representing a 1.</p>
-
-
+<div class="myDiv2">	
+</div>
 <p>This is a qubit which is in a superposition of two states, 0 and 1.</p>
-
+<div class="myDiv1">	
+</div>
 <p>However, mainting the superpositon of quibits can be very difficult. The surroundings of the quantum system must be very precise as even the slightest change can disrupt the system. For this reason quantum computers are kept at an extremely low temperature and the air is vaccumed out of the room it is placed in.</p>
 
 <img src="superposition.PNG" alt="superposition">
