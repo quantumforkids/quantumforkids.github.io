@@ -53,6 +53,7 @@ p {
 img {
 	height: 100px;
 	width: 150px;
-	border-color: aqua;
+	border-color: hotpink;
 	border-width: 3px;
+	box-shadow: aqua -2px 2px;
 }
